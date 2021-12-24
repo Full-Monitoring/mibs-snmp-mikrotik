@@ -2,7 +2,7 @@
 
 ## HEALTH
 
-```json
+```JS
 core voltage=1.3.6.1.4.1.14988.1.1.3.1.0
 3.3V voltage=1.3.6.1.4.1.14988.1.1.3.2.0
 5V voltage=1.3.6.1.4.1.14988.1.1.3.3.0
@@ -25,7 +25,7 @@ fan speed2=1.3.6.1.4.1.14988.1.1.3.18.0
 
 ## INTERFACE
 
-```json
+```JS
 mtxr interface stats index=1.3.6.1.4.1.14988.1.1.14.1.1.1
 mtxr interface stats name=1.3.6.1.4.1.14988.1.1.14.1.1.2
 mtxr interface stats alias=1.3.6.1.2.1.31.1.1.1.18
@@ -38,7 +38,7 @@ mtxr interface stats link downs=1.3.6.1.4.1.14988.1.1.14.1.1.90
 
 ## OPTICAL
 
-```json
+```JS
 mtxr optical index=1.3.6.1.4.1.14988.1.1.19.1.1.1
 mtxr optical name=1.3.6.1.4.1.14988.1.1.19.1.1.2
 mtxr optical rx loss=1.3.6.1.4.1.14988.1.1.19.1.1.3
@@ -53,7 +53,7 @@ mtxr optical rx power=1.3.6.1.4.1.14988.1.1.19.1.1.10
 
 ## SCRIPT
 
-```json
+```JS
 
 
 
