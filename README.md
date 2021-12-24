@@ -26,9 +26,12 @@ fan speed2=1.3.6.1.4.1.14988.1.1.3.18.0
 ## INTERFACE
 
 ```json
-
-
-
+mtxr interface stats index=1.3.6.1.4.1.14988.1.1.14.1.1.1
+mtxr interface stats name=1.3.6.1.4.1.14988.1.1.14.1.1.2
+mtxr interface stats alias=1.3.6.1.2.1.31.1.1.1.18
+mtxr interface stats rx bytes=1.3.6.1.4.1.14988.1.1.14.1.1.31
+mtxr interface stats tx bytes=1.3.6.1.4.1.14988.1.1.14.1.1.61
+mtxr interface stats link downs=1.3.6.1.4.1.14988.1.1.14.1.1.90
 
 
 ```
@@ -36,11 +39,16 @@ fan speed2=1.3.6.1.4.1.14988.1.1.3.18.0
 ## OPTICAL
 
 ```json
-
-
-
-
-
+mtxr optical index=1.3.6.1.4.1.14988.1.1.19.1.1.1
+mtxr optical name=1.3.6.1.4.1.14988.1.1.19.1.1.2
+mtxr optical rx loss=1.3.6.1.4.1.14988.1.1.19.1.1.3
+mtxr optical tx fault=1.3.6.1.4.1.14988.1.1.19.1.1.4
+mtxr optical wavelength=1.3.6.1.4.1.14988.1.1.19.1.1.5
+mtxr optical temperature=1.3.6.1.4.1.14988.1.1.19.1.1.6
+mtxr optical supply voltage=1.3.6.1.4.1.14988.1.1.19.1.1.7
+mtxr optical tx bias current=1.3.6.1.4.1.14988.1.1.19.1.1.8
+mtxr optical tx power=1.3.6.1.4.1.14988.1.1.19.1.1.9
+mtxr optical rx power=1.3.6.1.4.1.14988.1.1.19.1.1.10
 ```
 
 ## SCRIPT
