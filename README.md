@@ -54,9 +54,31 @@ mtxr optical rx power=1.3.6.1.4.1.14988.1.1.19.1.1.10
 ## SCRIPT
 
 ```JS
+mtxr script index=1.3.6.1.4.1.14988.1.1.8.1.1.1
+mtxr script name=1.3.6.1.4.1.14988.1.1.8.1.1.2
+mtxr script run cmd=1.3.6.1.4.1.14988.1.1.8.1.1.3
+mtxr script run index=1.3.6.1.4.1.14988.1.1.18.1.1.1
+mtxr script run output=1.3.6.1.4.1.14988.1.1.18.1.1.2
+```
 
+## GAUGE
 
+```JS
+mtxr gauge index=1.3.6.1.4.1.14988.1.1.3.100.1.1
+mtxr gauge name=1.3.6.1.4.1.14988.1.1.3.100.1.2
+mtxr gauge value=1.3.6.1.4.1.14988.1.1.3.100.1.3
+mtxr gauge unit=1.3.6.1.4.1.14988.1.1.3.100.1.4
+```
 
+## NEIGHBOR
 
-
+```JS
+mtxr neighbor index=1.3.6.1.4.1.14988.1.1.11.1.1.1
+mtxr neighbor ip address=1.3.6.1.4.1.14988.1.1.11.1.1.8
+mtxr neighbor mac address=1.3.6.1.4.1.14988.1.1.11.1.1.3
+mtxr neighbor version=1.3.6.1.4.1.14988.1.1.11.1.1.4
+mtxr neighbor platform=1.3.6.1.4.1.14988.1.1.11.1.1.5
+mtxr neighbor identity=1.3.6.1.4.1.14988.1.1.11.1.1.6
+mtxr neighbor softwareid=1.3.6.1.4.1.14988.1.1.11.1.1.7
+mtxr neighbor interfaceid=1.3.6.1.4.1.14988.1.1.11.1.1.8
 ```
