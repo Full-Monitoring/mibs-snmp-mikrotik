@@ -27,6 +27,7 @@ fan speed2=1.3.6.1.4.1.14988.1.1.3.18.0
 
 ```JS
 mtxr interface stats index=1.3.6.1.4.1.14988.1.1.14.1.1.1
+mtxr interface stats type=1.3.6.1.2.1.2.2.1.3
 mtxr interface stats name=1.3.6.1.4.1.14988.1.1.14.1.1.2
 mtxr interface stats alias=1.3.6.1.2.1.31.1.1.1.18
 mtxr interface stats rx bytes=1.3.6.1.4.1.14988.1.1.14.1.1.31
